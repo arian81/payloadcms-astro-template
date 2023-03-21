@@ -9,7 +9,7 @@ import Users from "./collections/Users";
 require("dotenv").config();
 
 export default buildConfig({
-  serverURL: `http://0.0.0.0:${process.env.PORT}`,
+  serverURL: `http://0.0.0.0:4000`,
   admin: {
     user: Users.slug,
   },
