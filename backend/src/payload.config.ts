@@ -6,8 +6,6 @@ import Posts from "./collections/Posts";
 import Tags from "./collections/Tags";
 import Users from "./collections/Users";
 
-require("dotenv").config();
-
 export default buildConfig({
   serverURL: `http://0.0.0.0:4000`,
   admin: {
